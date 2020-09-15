@@ -11,7 +11,7 @@ parser.add_argument("--server", "-s",
     help="If u dont use http or https , the default option will be https://",
     default='',
     type=str,
-    # required=True
+    required=True
     )
 parser.add_argument("--user", "-u",
     help="Default: Admin",
