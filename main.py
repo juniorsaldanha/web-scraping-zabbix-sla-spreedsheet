@@ -5,7 +5,7 @@ from datetime import date, datetime, time
 import pandas as pd
 
 
-#Args to run this alg
+#Args to run this code
 parser = argparse.ArgumentParser()
 parser.add_argument("--server", "-s",
     help="If u dont use http or https , the default option will be https://",
